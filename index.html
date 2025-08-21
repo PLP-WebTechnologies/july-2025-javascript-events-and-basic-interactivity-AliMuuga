@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali's Motion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Star Ali</h1>
+  </header>
+
+  <!-- Part 2: Interactive Elements -->
+  <section id="interactive">
+    <h2>Interactive Features</h2>
+
+    <!-- Light/Dark Mode Toggle -->
+    <button id="toggleTheme">Jedi/Darkside</button>
+
+    <!-- Counter Game -->
+    <div>
+      <p>Counter: <span id="counterValue">0</span></p>
+      <button id="incrementBtn">Increment</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- Collapsible FAQ -->
+    <div class="faq">
+      <h3 class="faq-question">This is JavaScript</h3>
+      <p class="faq-answer">JavaScript is a programming language for web development.</p>
+
+      <h3 class="faq-question">Why use event listeners?</h3>
+      <p class="faq-answer">Event listeners allow your page to respond to user actions dynamically.</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section id="form-section">
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <small class="error"></small>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <small class="error"></small>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <small class="error"></small>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formSuccess" style="color:rgb(11, 186, 213);"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
